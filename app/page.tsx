@@ -433,11 +433,11 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             <Card className="bg-black/60 border-white/10 overflow-hidden group observe-on-scroll">
               <div className="aspect-video w-full overflow-hidden border-b border-white/10 relative">
-                <img src="/images/project-vocab.png" alt="VocabMaster" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                <img src="/images/project-vocab.png" alt="Exerciser" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
                 <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors"></div>
               </div>
               <CardHeader>
-                <CardTitle className="font-bold text-xl text-white">VocabMaster</CardTitle>
+                <CardTitle className="font-bold text-xl text-white">Exerciser</CardTitle>
                 <CardDescription className="text-zinc-400">Interactive Vocabulary Learning Platform</CardDescription>
               </CardHeader>
               <CardContent>
@@ -451,9 +451,11 @@ export default function Home() {
                 </div>
               </CardContent>
               <CardFooter>
-                <Button variant="ghost" className="w-full text-zinc-300 hover:text-white hover:bg-white/5 font-mono text-xs">
-                  <Globe className="size-4 mr-2" /> VIEW_DEPLOYMENT
-                </Button>
+                <a href="https://github.com/mm232323/Exerciser" target="_blank" rel="noopener noreferrer" className="w-full">
+                  <Button variant="ghost" className="w-full text-zinc-300 hover:text-white hover:bg-white/5 font-mono text-xs">
+                    <Globe className="size-4 mr-2" /> VIEW_REPO
+                  </Button>
+                </a>
               </CardFooter>
             </Card>
 
@@ -477,9 +479,11 @@ export default function Home() {
                 </div>
               </CardContent>
               <CardFooter>
-                <Button variant="ghost" className="w-full text-zinc-300 hover:text-white hover:bg-white/5 font-mono text-xs">
-                  <Globe className="size-4 mr-2" /> VIEW_DEPLOYMENT
-                </Button>
+                <a href="https://github.com/mm232323/HungerHub" target="_blank" rel="noopener noreferrer" className="w-full">
+                  <Button variant="ghost" className="w-full text-zinc-300 hover:text-white hover:bg-white/5 font-mono text-xs">
+                    <Globe className="size-4 mr-2" /> VIEW_REPO
+                  </Button>
+                </a>
               </CardFooter>
             </Card>
 
@@ -503,9 +507,11 @@ export default function Home() {
                 </div>
               </CardContent>
               <CardFooter>
-                <Button variant="ghost" className="w-full text-zinc-300 hover:text-white hover:bg-white/5 font-mono text-xs">
-                  <Globe className="size-4 mr-2" /> VIEW_DEPLOYMENT
-                </Button>
+                <a href="https://github.com/mm232323/sidra-shop" target="_blank" rel="noopener noreferrer" className="w-full">
+                  <Button variant="ghost" className="w-full text-zinc-300 hover:text-white hover:bg-white/5 font-mono text-xs">
+                    <Globe className="size-4 mr-2" /> VIEW_REPO
+                  </Button>
+                </a>
               </CardFooter>
             </Card>
 
@@ -529,9 +535,11 @@ export default function Home() {
                 </div>
               </CardContent>
               <CardFooter>
-                <Button variant="ghost" className="w-full text-zinc-300 hover:text-white hover:bg-white/5 font-mono text-xs">
-                  <Globe className="size-4 mr-2" /> VIEW_DEPLOYMENT
-                </Button>
+                <a href="https://github.com/mm232323/Posterizer" target="_blank" rel="noopener noreferrer" className="w-full">
+                  <Button variant="ghost" className="w-full text-zinc-300 hover:text-white hover:bg-white/5 font-mono text-xs">
+                    <Globe className="size-4 mr-2" /> VIEW_REPO
+                  </Button>
+                </a>
               </CardFooter>
             </Card>
           </div>
